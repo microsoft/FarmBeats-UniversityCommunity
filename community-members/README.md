@@ -1,4 +1,4 @@
-## About EMEA University Pilot Community
+## About University Pilot Community
 
 The FarmBeats University Pilot Community was established as a way for educational institutions and university teams to collaborate on FarmBeats projects for both education and research.  
 

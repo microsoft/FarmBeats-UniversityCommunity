@@ -65,6 +65,6 @@ Use Azure Maps to determine whether irrgation is needed depending on weather con
 
 ### **Azure Services Integration**
 
-![AzureServiceS1](../images/AzureServices_Scenario2.png)
+![AzureServiceS1](Alarm_system/media/AzureServices_Scenario2.png)
 
 --------------

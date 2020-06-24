@@ -14,9 +14,9 @@ moisture_pin = 2
 light_pin = 0
 
 # Setting the pins used for controlling the LEDs in the raspberry pi
-red_led_pin = 16 # pin 31
-blue_led_pin = 26 # pin 36
-violet_led_pin = 6 # pin 37
+red_led_pin = 16 # pin 36
+blue_led_pin = 26 # pin 37
+violet_led_pin = 6 # pin 31
 
 # Confiuration of the GPIO Pins
 GPIO.setmode(GPIO.BCM)

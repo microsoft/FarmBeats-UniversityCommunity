@@ -13,3 +13,9 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+## Contributing Resources to the community
+
+1. Simply create a folder under the community-members folder 
+2. Create a folder for your institution
+3. Create a folder for your project/scenario/lab
+4. Put all resources in this folder and include a readme.md file to explain your work

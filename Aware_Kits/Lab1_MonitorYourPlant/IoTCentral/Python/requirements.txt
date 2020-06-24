@@ -1,0 +1,6 @@
+azure-iot-device
+smbus2
+RPi.bme280
+python-dotenv
+grove.py
+asyncio

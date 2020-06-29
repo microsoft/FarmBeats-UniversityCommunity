@@ -57,5 +57,4 @@ You will not need a light sensor for this scenario. You may disconnect it from y
 
 ------------------
 
-
 Next step: [Create a new device template for IoT Central App](Device_Template_IoTC.md)

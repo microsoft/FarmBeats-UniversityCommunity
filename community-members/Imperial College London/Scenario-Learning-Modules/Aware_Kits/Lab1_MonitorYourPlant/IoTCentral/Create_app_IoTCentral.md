@@ -79,7 +79,7 @@ Once the template is created, you need to add capabilities to it. These are defi
 
 * **Views** - these are dashboards for a device that can contain charts, data values and other information allowing you to visualize telemetry or send commands.
 
-The environment sensor needs a capability model created, with an interface defined for the telemetry values being sent, a command to indicate that the plant needs watering, and a view to visualize these values.
+The environment sensor needs a capability model created, with an interface defined for the telemetry values being sent and a view to visualize these values.
 
 1. Select the **Custom** capability model
 

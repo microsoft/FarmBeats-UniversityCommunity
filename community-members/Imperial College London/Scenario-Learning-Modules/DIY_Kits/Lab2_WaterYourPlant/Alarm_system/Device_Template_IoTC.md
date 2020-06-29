@@ -139,4 +139,5 @@ Now that a new device is created, you will need to take note of the new connecti
 
 ------------------
 
-Next Step: [Trigger an email notification in IoT Central](IoT_Central_create_rule.md)
+Next Step: For the next step you can either [Trigger an email notification in IoT Central](IoT_Central_create_rule.md)
+ or [Send an email with python from your Raspberry Pi](AlarmSystem.md).

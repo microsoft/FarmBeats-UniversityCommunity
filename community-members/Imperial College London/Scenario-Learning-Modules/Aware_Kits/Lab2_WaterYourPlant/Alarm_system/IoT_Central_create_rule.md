@@ -49,5 +49,4 @@ You can choose from sum, average, minimum, maximum .....
 
 ---------------------
 
-
-Next Step: [Create an Azure Function](Create_Azure_Function.md)
+Next Step: [Implement an autoirrigation system](../Automated_irrigation)

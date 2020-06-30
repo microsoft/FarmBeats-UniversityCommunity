@@ -29,7 +29,7 @@ Include instructions
 
 
 1. Search for `Azure maps` and select *Azure Maps*
-
+![Image](media/azuremaps.png)
 
 1. Select **Create**
 
@@ -45,12 +45,12 @@ Include instructions
    1. Read and agree to the license agreement and privacy statement
 
    1. Select **Create**
-
+![Image](media/createmapsacc.png)
 
 1. Once the deployment has completed, select the **Go to resource** button.
 
 1. Select *Authentication* from the *Azure Maps Account* menu, then copy the value of the *Primary key*
-
+![Image](media/primarykey.JPG)
 
 ## Call Azure Maps
 
@@ -66,14 +66,14 @@ To get the latitude and longitude of your Raspberry Pi, you can use Bing Maps.
 
 1. Select *More -> Share* from the top menu
 
-
 1. The Share popup will show a URL. In the URL will be a query string of `cp=` followed by the latitude and longitude
 
    ```sh
-   https://www.bing.com/maps?osid=c873cba9-a34c-556a-8f21-d256c9b872bf&cp=47.689929~-122.042581&lvl=17&v=2&sV=2&form=S00027
+   https://www.bing.com/maps?osid=1398bf5e-e6b0-4765-8dca-3053122afeb7&cp=51.487701~-0.3087&lvl=11&v=2&sV=2&form=S00027
    ```
-
-   In this example, the value is `cp=47.689929~-122.042581`, so a latitude of 47.689929 and a longitude of -122.042581.
+   ![Image](media/localurl.png)
+   
+   In this example, which is the London location, the value is `cp=51.487701~-0.3087`, so a latitude of 51.487701 and a longitude of -0.3087.
 
 ### Test out the REST API
 
@@ -91,16 +91,17 @@ https://atlas.microsoft.com/weather/forecast/daily/json?api-version=1.0&query={l
 
 Test this out by making a **Get** request in Postman. The return value is a block of JSON containing a weather summary, along with a break down of the forecast for day and night with temperatures, precipitation, wind and air quality details.
 
+![Image](media/weatherpredict.JPG)
 
 The JSON has a value called `summary`, and in this is a value called `category`. If rain is forecast, the category will be `rain`
 
 ```json
 {
     "summary": {
-        "startDate": "2020-02-14T03:00:00+00:00",
-        "endDate": "2020-02-16T03:00:00+00:00",
-        "severity": 3,
-        "phrase": "Expect showery weather this evening through Saturday afternoon",
+        "startDate": "2020-06-28T07:00:00+00:00",
+        "endDate": "2020-06-28T13:00:00+00:00",
+        "severity": 4,
+        "phrase": "Expect showers Sunday morning",
         "category": "rain"
     },
     ...

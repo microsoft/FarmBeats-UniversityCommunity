@@ -4,6 +4,12 @@ Telemetry is an automated communications process where data is collected at a re
 
 After a connection is established as an Event Hubs client, you can send messages to the Event Hub as JSON.
 
+> All the code for this section is in the [Python](Python/) folder. The scripts are:
+>
+>- `client1_3_3.py` for the python module azure-eventhub version 1.3.3.
+>
+>- `client5_1_0.py` for the python module azure-eventhub version 5.1.0.
+
 ## Send a Telemetry Message as the Client
 
 For this part, you will need to install the latest version of the [azure-eventhub](https://pypi.org/project/azure-eventhub/) library in python if you haven't done so before. You can easily do this with the following command:
@@ -68,11 +74,15 @@ async def run():
         print("Message sent.")
 
 
-loop = asyncio.get_event_loop()
-loop.run_until_complete(run())
+    # python3.7 or newer
+    asyncio.run(run())
+
+    # python3.6
+    # loop = asyncio.get_event_loop()
+    # loop.run_until_complete(run())
 ```
 
 *Note: the instance **sensors** is an array. You can add as many elements as you want. Recall that we defined the values to be doubles.*
 
 --------
-*See also: [How to send data from IoT Central to FarmBeats](./Send_data_IoTCentral.md)
+See also: [How to send data from IoT Central to FarmBeats](Send_data_IoTCentral.md)

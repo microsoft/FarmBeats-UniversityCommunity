@@ -52,4 +52,4 @@ In this step you will create an [IoT hub](https://azure.microsoft.com/services/i
 
 ----------
 
-[Next step](Python_code.md): Write the code for the Raspberry Pi to stablish a connection with the IoT Hub.
+Next step: [Write the code for the Raspberry Pi to establish a connection with the IoT Hub](Python_code.md).

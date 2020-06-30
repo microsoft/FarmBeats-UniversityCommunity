@@ -309,4 +309,4 @@ Now if you want, you can also test it from the Azure Portal and check that the p
 
 ------------------
 
-[Next step](Create_PowerApps.md): Create App in Power Apps.
+Next step: [Create App in Power Apps](Create_PowerApps.md).

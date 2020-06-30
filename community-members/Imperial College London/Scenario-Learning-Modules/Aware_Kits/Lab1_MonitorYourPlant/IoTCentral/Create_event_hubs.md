@@ -98,4 +98,4 @@ The easiest way to see messages flowing to the Event Hub is via the Azure Portal
 
 ----------------
 
-[Next Step](Create_storage_account.md): In the next step you will create a storage account to save the telemetry data.
+Next Step: [Create a storage account to save the telemetry data](Create_storage_account.md).

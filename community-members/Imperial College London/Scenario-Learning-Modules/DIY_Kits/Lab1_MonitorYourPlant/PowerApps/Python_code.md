@@ -441,4 +441,5 @@ The Python app will only run as long as the terminal is connected. Ideally we wa
 1. After a few seconds, the Raspberry Pi will reboot and resume sending telemetry to Azure IoT Hub. Check the device view to see the data.
 
 ----------------
-[Next Step](Create_storage_account.md): Create the storage account to store the data received from the sensors.
+
+Next Step: [Create the storage account to store the data received from the sensors](./Create_storage_account.md).

@@ -195,4 +195,4 @@ Each device has a set of connection details that will be used on the actual devi
 
 ------------------
 
-[Next Step](Send_data_to_IoTCentral.md): write the python code to send telemetry data to IoT Central.
+Next Step: [Write the python code to send telemetry data to IoT Central](Send_data_to_IoTCentral.md).

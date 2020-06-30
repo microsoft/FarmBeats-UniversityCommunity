@@ -410,4 +410,5 @@ The last part of the code will is just to tell the Raspberry Pi it should run th
 1. In the **OverView** tab, scroll to the bottom. You should be able to
 
 ----------------
-[Next Step](./Create_storage_account.md): Create the storage account to store the data received from the sensors.
+
+Next Step: [Create the storage account to store the data received from the sensors](./Create_storage_account.md).

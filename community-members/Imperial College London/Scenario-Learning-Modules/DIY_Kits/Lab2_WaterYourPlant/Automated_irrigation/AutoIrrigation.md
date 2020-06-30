@@ -2,6 +2,8 @@
 
 In the previous step, you have sent an email with a notification either from [IoT Central rule](../Alarm_system/IoT_Central_create_rule.md) or [your Raspberry Pi](../Alarm_system/AlarmSystem.md). In this step, you will modify the code to implement a water pump to water the plant.
 
+> All the code can be found in the [Python](../Python/) folder. You can also copy the script used in this step from [here](../Python/autoirrigation.py).
+
 ## Connection details
 
 1. Remember to change the connection details for the device you have just created in IoT Central.

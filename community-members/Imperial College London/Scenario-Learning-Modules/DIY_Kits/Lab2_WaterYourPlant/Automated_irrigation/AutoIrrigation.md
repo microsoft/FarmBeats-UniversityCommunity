@@ -8,7 +8,7 @@ In the previous step, you have sent an email with a notification either from [Io
 
    ```sh
    ID_SCOPE=<Id scope>
-   DEVICE_ID=raspberry_pi
+   DEVICE_ID=raspberry_pi2
    PRIMARY_KEY=<primary key>
    ```
 
@@ -299,6 +299,8 @@ This code starts the command listener and the main loop. Once the main loop exit
 1. Try checking and unchecking the *Needs watering* value and selecting **Run**. The LED should light when *Needs watering* is checked, and turn off when it is unchecked. The motor in water pump will also run and stop while checking.
 
 ## Run the Python app continuously
+
+_This step is optional._
 
 The Python app will only run as long as the terminal is connected. Ideally we want the software running as soon as the Raspberry Pi boots up. This saves having to log in and run the Python file each time the device is turned on. The easiest way to do this is via a `cron` job that is run on reboot. Cron is a task scheduler that runs commands at specific times.
 

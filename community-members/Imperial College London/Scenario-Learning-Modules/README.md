@@ -10,30 +10,47 @@ To promote the concept of FarmBeats among universities, Microsoft has collaborat
 
 Hence, the FarmBeats student kit includes a Raspberry Pi as a microcontroller with preconfigured Microsoft Azure Cloud services with the following sensors:
 
-- [Temperature, Humidity and Pressure Sensor (BME280)](https://wiki.seeedstudio.com/Grove-Barometer_Sensor-BME280/).
-- [Light sensor](https://wiki.seeedstudio.com/Grove-Light_Sensor/).
-- [Capacitive Soil Moisture Sensor](https://wiki.seeedstudio.com/Grove-Capacitive_Moisture_Sensor-Corrosion-Resistant/).
+- [Temperature, Humidity and Pressure Sensor (BME280)](https://wiki.seeedstudio.com/Grove-Barometer_Sensor-BME280/)
+
+- [Light sensor](https://wiki.seeedstudio.com/Grove-Light_Sensor/)
+
+- [Capacitive Soil Moisture Sensor](https://wiki.seeedstudio.com/Grove-Capacitive_Moisture_Sensor-Corrosion-Resistant/)
 
 This GitHub repository is a one-stop-shop resource to learn about state-of-the-art digital agriculture and precision farming techniques. The user will learn how to build complex IoT products using Raspberry Pi and Microsoft Azure Cloud Computing Services. No prior experience is required.
 
 ## Lesson Plan
 
-This github repo includes instructions for both: Aware kits and DIY kits. Even if you do not have a Raspberry Pi, you can find some python scripts with simulated data for each of the scenarios. This way, you will be able to learn about Azure Services by using just a computer.
+This github repo includes instructions for both: Aware kits and DIY kits. Even if you do not have a Raspberry Pi, you can find some python scripts with simulated data for each of the scenarios. This way, you will be able to learn more about Azure Services and IoT by using just a computer.
 
 ### Scenario 1: Monitor your plant
 
 This is a simple experiment to begin collecting data from all the sensors. Learn how to set up the hardware and interact with azure services. 
-
 You will be learn to create an application in IoT Central and PowerApps to display your sensor data. 
+
+#### IoT Central
+
+![Azure services iotc](Aware_Kits/Lab1_MonitorYourPlant/IoTCentral/media/AzureServices_iotc.png)
+
+#### PowerApps
+
+![Azure services powerapps](Aware_Kits/Lab1_MonitorYourPlant/PowerApps/media/AzureServices_powerapps.png)
 
 ### Scenario 2: Water your plant
 
 The main goal for this scenario is to learn how to implement an automated irrigation system. This will allow you to have a better understanding of how to efficiently use water, as there are a lot of contries facing water scarcity.
 
+![AzureServiceS1](Aware_Kits/Lab2_WaterYourPlant/Alarm_system/media/AzureServices_Scenario2.png)
+
 ### Scenario 3: Predict the weather
 
-In scenario 3, you will try to predict the weather using Azure Machine Learning. You will be using the data stored in the Azure Storage Account, which is gathered using your own Raspberry Pi.
+In scenario 3, you will try to predict the probability of rainfall using Azure Machine Learning. You will be using the data stored in the Azure Storage Account, which is gathered using your own Raspberry Pi. You can extend this and try to predict other metheorological events.
+
+![Ml Diagram](Aware_Kits/Lab3_PredictTheWeather/media/ML-Diagram.png)
 
 ### Scenario 4: LED Light System
 
 Light is another important factor affecting plant growth. In this scenario, you will learn how to build a LED Light System to optimize plant growth. In addition, you can understand how light different wavelenghts affect your plant and try to use this to improve the plant growth.
+
+Wavelenght composition of sunlight
+
+![sunlight composition](Aware_Kits/Lab4_LEDLightSystem/media/sunlight.png)

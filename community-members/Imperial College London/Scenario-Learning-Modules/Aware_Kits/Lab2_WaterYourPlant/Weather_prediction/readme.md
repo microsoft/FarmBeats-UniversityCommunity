@@ -1,4 +1,4 @@
-# 3. Azure Maps for weather prediction
+# Azure Maps for weather prediction
 
 ## Objective
 

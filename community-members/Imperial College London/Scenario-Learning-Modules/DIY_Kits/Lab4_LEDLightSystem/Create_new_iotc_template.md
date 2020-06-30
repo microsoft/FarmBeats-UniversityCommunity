@@ -86,4 +86,4 @@ In this step you will create a new IoT Central application template similar to l
 
 -------------------
 
-[Next Step](Write_the_python_code.md): In the next step you will modify the python code used in Lab 1, and incorporate a listener to receive commands from IoT Central.
+Next Step: [Modify the python code used in Lab 1](Write_the_python_code.md), and incorporate a listener to receive commands from IoT Central.

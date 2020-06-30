@@ -481,4 +481,5 @@ The Python app will only run as long as the terminal is connected. Ideally we wa
 1. After a few seconds, the Raspberry Pi will reboot and resume sending telemetry to Azure IoT central. Check the device view to see the data.
 
 ----------------
-[Next Step](Create_event_hubs.md): Create Event Hubs to receive and send events.
+
+Next Step: [Create Event Hubs to receive and send events](Create_event_hubs.md).

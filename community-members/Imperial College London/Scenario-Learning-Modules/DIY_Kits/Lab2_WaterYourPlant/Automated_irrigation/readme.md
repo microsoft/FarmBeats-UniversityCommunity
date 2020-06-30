@@ -1,13 +1,12 @@
+# Automated irrigation
 
-### **2. Automated irrigation**
-
-#### Objective
+## Objective
 
 To set up a simple automated irrigation system.
 
 _**Additional equipment:** Relay module, water pump._
 
-#### Learning Outcomes
+## Learning Outcomes
 
 - Practical application of previous knowledge that links to digital farming.
 

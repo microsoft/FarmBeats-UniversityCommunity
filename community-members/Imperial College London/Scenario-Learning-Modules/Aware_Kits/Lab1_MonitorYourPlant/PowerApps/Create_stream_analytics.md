@@ -136,4 +136,4 @@ In the [previous step](./Create_storage_account.md) you have created the storage
 
 -----------------------
 
-[Next step](Create_function.md): Create Azure Function to tranfer the entries from the table to Power Apps.
+Next step: [Create Azure Function to tranfer the entries from the table to Power Apps](Create_function.md).

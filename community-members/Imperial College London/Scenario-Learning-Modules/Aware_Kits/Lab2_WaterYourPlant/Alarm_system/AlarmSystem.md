@@ -1,4 +1,4 @@
-# **2. Set up an alarm system**
+# Set up an alarm system
 
 ## Start with a email account
 
@@ -12,6 +12,18 @@
 - SMTP Port TLS: 587
 
 ![Image](media/SMTP.png)
+
+## Connection details
+
+1. Remember to change the connection details for the device you have just created in IoT Central.
+
+   ```sh
+   ID_SCOPE=<Id scope>
+   DEVICE_ID=raspberry_pi2
+   PRIMARY_KEY=<primary key>
+   ```
+
+   Set `<Id scope>` to be the value of the ID Scope from the **Connect** dialog in Azure IoT Central. Set `<primary key>` to be the **Primary key** value from this dialog.
 
 ## Write the code
 

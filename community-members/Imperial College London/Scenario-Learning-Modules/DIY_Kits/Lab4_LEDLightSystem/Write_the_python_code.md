@@ -2,6 +2,8 @@
 
 In the [previous step](Create_new_iotc_template.md), you have created a new template which includes commands to switch on and off the LEDs. In this step, you will modify the Python code from Lab 1 so that it can receive the commands from IoT Central.
 
+> All the code can be found in the [Python](Python/) folder. 
+
 ## Full code
 
 This is the full code in Python. Below is a break down explaining the functions used for listenning to commmands from IoT Central.

@@ -58,4 +58,4 @@ If you already have an existing storage account, you can skip this step go to **
 
 ---------------
 
-[Next step](Create_stream_analytics.md): Create stream analytics to tranfer the events from the IoT Central App to the Azure Blob Storage.
+Next step: [Create stream analytics](Create_stream_analytics.md) to tranfer the events from the IoT Central App to the Azure Blob Storage.

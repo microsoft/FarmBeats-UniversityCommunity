@@ -10,15 +10,19 @@ _Optional date and time last watered extension project._
 
 ## Lab Structure
 
-- Investigate creating rules using Azure IoT Central
+- Investigate creating rules using Azure IoT Central.
+
   - Send email or push notification when the soil moisture is below a certain threshold.
 
   - Optional: check if temperature/pressure/light intensity is outside the optimal range.
 
 - Learn to use process sensor data using Azure Functions.
 
-  - Stream data from IoT Central using Event Hubs and Stream Analytics
+  - Stream data from IoT Central using Event Hubs and Stream Analytics.
 
+
+
+------
 
 ## Steps
 

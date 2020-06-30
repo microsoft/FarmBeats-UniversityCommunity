@@ -451,4 +451,5 @@ The last part of the code will is just to tell the Raspberry Pi it should run th
 1. The view will load, and there should be data visible that matches the data being sent
 
 ----------------
-[Next Step](Create_event_hubs.md): Create Event Hubs to receive and send events.
+
+Next Step: [Create Event Hubs to receive and send events](Create_event_hubs.md).

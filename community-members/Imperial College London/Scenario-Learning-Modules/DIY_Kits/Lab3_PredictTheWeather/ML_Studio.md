@@ -182,4 +182,24 @@ Azure Machine Learning includes a sample dataset that you can use to predict the
     
     <img src="media/pipeline_structure_1.png" width="40%">
     
+1. After splitting the dataset drag a **Train Model** and set the **Label Column** as **isRain**.
+
+1. Then drag a **Two-Class Logistic Regression** module and set its settings as this:
+
+    <img src="media/Logistic_Regression_settings.png" width="40%">
+
+1. Drag a **Select Columns in Dataset** module. Select **edit columns** and add **temperature** and **humidity**.
+
+1. Make the following connections:
+
+    <img src="media/pipeline_2.png" width="40%">
+    
+1. Finally add a **Score Model** module. Connect the output of **Train Model** to the left input and connect the output of **Select Columns in Dataset** to the right input of **Score Model**. Your pipeline should look like this:
+
+    <img src="media/pipeline_3.png" width="40%">
+
+
+    
+
+    
     

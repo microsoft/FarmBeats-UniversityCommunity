@@ -239,4 +239,5 @@ You need the following to connect to your deployed service from a client applica
 
 Using the REST endpoint and the Primary Key you have noted, integrate your machine learning model to your IoT Central application as you did for the Azure maps section.
 
+[Check what you learned!](Knowledge_Check.md)
 

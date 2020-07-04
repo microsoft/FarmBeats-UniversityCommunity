@@ -1,4 +1,4 @@
-[Go to the previous section](ML_Studio_Classic.md)
+[Go back to the previous section](ML_Studio_Classic.md)
 
 <hr>
 

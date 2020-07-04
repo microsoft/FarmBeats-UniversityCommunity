@@ -1,3 +1,11 @@
+[Go to the previous section](ML_Studio_Classic.md)
+
+<hr>
+
+# Azure Machine Learning Studio
+
+In this tutorial you will use the new version of Azure Machine Learning Studio and build and train a machine learning model yourself with a provided weather dataset.
+
 ## Create an Azure Machine Learning workspace
 
 To use Azure Machine Learning, you create a workspace in your Azure subscription. You can then use this workspace to manage data, compute resources, code, models, and other artifacts related to your machine learning workloads.
@@ -235,9 +243,13 @@ You need the following to connect to your deployed service from a client applica
     1. The REST endpoint for your service
     1. The Primary Key for your service
     
+<hr>
+
 ## Challenge
 
 Using the REST endpoint and the Primary Key you have noted, integrate your machine learning model to your IoT Central application as you did for the Azure maps section.
+
+<hr>
 
 [Check what you learned!](Knowledge_Check.md)
 

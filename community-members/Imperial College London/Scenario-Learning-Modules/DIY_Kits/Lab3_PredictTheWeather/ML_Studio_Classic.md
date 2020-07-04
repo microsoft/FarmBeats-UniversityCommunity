@@ -1,3 +1,7 @@
+[Go to the previous section](README.md)
+
+<hr>
+
 # Azure Machine Learning Studio (Classic)
 
 In this tutorial you will use a pre-trained model to predict the chance of rain using the old version of the Azure Machine Learning Studio.
@@ -246,8 +250,8 @@ Run your IoT device (Raspberry Pi) to start collecting and sending temperature a
 
 ## Summary
 
-You have successfully used Azure Machine Learning with a pre-trained model to produce the chance of rain based on the temperature and humidity data that your Event hub receives. Next, you will use the new version of the Azure Machine Learning Studio and build and train a machine learning model yourself with a provided weather dataset.
+You have successfully used Azure Machine Learning with a pre-trained model to produce the chance of rain based on the temperature and humidity data that your Event hub receives. Next, you will use the new version of Azure Machine Learning Studio and build and train a machine learning model yourself.
 
 -----------------
 
-[Check what you learned!](Knowledge_Check.md)
+[Go to the next section!](ML_Studio.md)

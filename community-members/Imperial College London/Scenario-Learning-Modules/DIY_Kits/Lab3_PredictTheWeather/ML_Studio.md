@@ -198,8 +198,45 @@ Azure Machine Learning includes a sample dataset that you can use to predict the
 
     <img src="media/pipeline_3.png" width="40%">
 
+### Submit the pipeline
 
-    
+1. Press **Create Inference pipeline** and select **Real-time inference pipeline**.
 
+1. Wait for the inference pipeline to be created and select **Submit**.
+
+### Deploy a predictive service
+
+After you've created an inference pipeline for real-time inferencing, you can publish it as a service for client applications to use.
+
+1. View the **Real-time inference pipeline** you created in the previous unit.
+
+1. At the top right, select **Deploy**, and set up a new real-time endpoint named predict-weather on the inference cluster you created previously.
     
+1. Wait for the web service to be deployed - this can take several minutes. The deployment status is shown at the top left of the designer interface.
+
+### Test the real-time endpoint
+
+After deployment finishes, you can test your real-time endpoint by going to the Endpoints page.
+
+1. On the **Endpoints** page, select the endpoint you deployed.
+
+1. Select **Test**.
+
+1. You can manually input testing data or use the autofilled sample data, and select **Test**.
+
+### Get REST endpoint and the Primary Key
+
+You need the following to connect to your deployed service from a client application.
+
+1. On the **Endpoints** page, select the endpoint you deployed.
+
+1. When the endpoint opens, view the **Consume** tab and note the following information there. 
+
+    1. The REST endpoint for your service
+    1. The Primary Key for your service
     
+## Challenge
+
+Using the REST endpoint and the Primary Key you have noted, integrate your machine learning model to your IoT Central application as you did for the Azure maps section.
+
+

@@ -1,4 +1,4 @@
-[Go to the previous section](README.md)
+[Go back to the previous section](README.md)
 
 <hr>
 

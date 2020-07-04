@@ -14,8 +14,8 @@ Predict the chance of rain using machine learning to use it as a factor for the 
 
 ## **Key areas to teach**
 
-AI, Azure services, Azure Machine Learning Studio (classic).
+AI, Azure services, Azure Machine Learning Studio.
 
 -----------------
 
-[Get started](ML_Studio_Classic.md)
+[Get started with Azure Machine Learning Studio (Classic)](ML_Studio_Classic.md)

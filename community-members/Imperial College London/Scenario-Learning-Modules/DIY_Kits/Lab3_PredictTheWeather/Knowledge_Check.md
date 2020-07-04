@@ -1,4 +1,4 @@
-[Go back to the scenario](ML_Studio_Classic.md)
+[Go back to the previous section](ML_Studio.md)
 
 ------------------
 
@@ -18,6 +18,10 @@
     
     1. **Normalize Data**
 
-1. c
+1. What information do you need to connect to your deployed service from a client application?
 
-1. d
+    1. **The REST endpoint**
+    
+    1. **The Primary Key**
+    
+    1. The Secondary Key

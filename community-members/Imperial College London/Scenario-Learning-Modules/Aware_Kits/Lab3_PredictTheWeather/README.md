@@ -2,20 +2,24 @@
 
 ## **Description**
 
-Learn to use temperature, humidity and barometer sensor to predict the weather forecast using Machine Learning.
+Predict the chance of rain using machine learning to use it as a factor for the automatic irrigation system. There is no need to water the plant if there is a high chance of rain. The chance of rain is the output of a prepared weather prediction model. The model is built upon historic data to forecast chance of rain based on temperature and humidity.
 
-### **Learning Outcomes**
+> You could compare the output of this model with that of Azure Maps in the previous step to check its validity.
 
-- Learn how to use the sensor and implement it on Raspberry Pi.
+## **Learning Outcomes**
 
-- Learn how to use Azure Machine Learning to do weather forecast using the temperature and humidity data obtained from the IoT Hub.
+- Learn how to use the sensor data in a machine learning model and use its output to trigger a command in IOT Central.
 
-- Learn basic R programming to be able to manage the database in Macrosoft Azure storage explorer.
+- Learn how to use Azure Machine Learning Studio (classic) to do weather forecast (chance of rain) using the temperature and humidity data obtained from your Azure Event Hubs.
 
-### **Key areas to teach**
+## **Key areas to teach**
 
-Microsoft  Azure, Machine Learning, AI, R programming.
+AI, Azure services, Azure Machine Learning Studio.
 
-------------------
+## Get started
 
-*Go to next scenario: [LED Light system](./4.-LED_Light_system.md)*
+You can choose between using Azure Machine Learning Studio or Azure Machine Learning Studio (Classic). Both tutorials are provided, but the Classic version may be deprecated in the future.
+
+[Get started with Azure Machine Learning Studio (Classic)](ML_Studio_Classic.md)
+
+[Get started with Azure Machine Learning Studio](ML_Studio.md)

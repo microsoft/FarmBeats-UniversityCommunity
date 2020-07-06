@@ -11,7 +11,7 @@ To use Azure Machine Learning, you create a workspace in your Azure subscription
 1. Select **＋Create a resource**, search for Machine Learning, and create a new **Machine Learning** resource with the following settings:
 
     1. **Workspace Name**: A unique name of your choice such as `ML-workspace-Ata`
-    
+
     1. **Subscription**: Your Azure subscription
 
     1. **Resource group**: Create a new resource group with a unique name suc as `FarmBeats-ML-Ata`
@@ -19,7 +19,7 @@ To use Azure Machine Learning, you create a workspace in your Azure subscription
     1. **Location**: Choose any available location
 
     1. **Workspace edition**: Enterprise
-    
+
     <img src="media/ML_workspace_create.png" width="70%">
 
 1. Wait for your workspace to be created (it can take a few minutes). Then go to it in the portal.
@@ -27,7 +27,6 @@ To use Azure Machine Learning, you create a workspace in your Azure subscription
 1. On the Overview page for your workspace, launch Azure Machine Learning Studio (or open a new browser tab and navigate to https://ml.azure.com ), and sign into Azure Machine Learning studio using your Microsoft account.
 
 1. In Azure Machine Learning studio, you can use the pages under ☰ icon to manage the resources in your workspace.
-
 
 ## Create compute resources
 
@@ -46,17 +45,17 @@ Compute targets are cloud-based resources on which you can run model training an
     1. Virtual Machine size: Standard_DS2_v2
   
 1. **Compute Clusters**: Scalable clusters of virtual machines for on-demand processing of experiment code. While the compute instance is being created, switch to the Compute Clusters tab and add a new compute cluster with the following settings. You'll use this to train a machine learning model:
-    
+
     1. Compute name: enter a unique name
-    
+
     1. Virtual Machine size: Standard_DS2_v2
-    
+
     1. Virtual Machine priority: Dedicated
-    
+
     1. Minimum number of nodes: 2
-    
+
     1. Maximum number of nodes: 2
-    
+
     1. Idle seconds before scale down: 120
   
 1. **Inference Clusters**: Deployment targets for predictive services that use your trained models.
@@ -74,7 +73,7 @@ Compute targets are cloud-based resources on which you can run model training an
     1. **Number of nodes**: 2
 
     1. **Network configuration**: Basic
-    
+ 
     1. **Enable SSL configuration**: Unselected  
 
 1. **Attached Compute**: Links to existing Azure compute resources, such as Virtual Machines or Azure Databricks clusters. You don't have to attach a new compute for now.
@@ -83,7 +82,6 @@ The compute targets will take some time to be created. You can move onto the nex
 
 > In a production environment, you'd typically set the **minimum number of nodes** value to 0 so that compute is only started when it is needed. However, compute can take a while to start, so to reduce the amount of time you spend waiting for it, you've initialized it with two permanently running nodes for this module.
   
-
 ## Explore data
 
 To train a model, you need a dataset that includes historical features (characteristics of the entity for which you want to make a prediction) and known label values (the numeric value that you want to train a model to predict).
@@ -98,9 +96,9 @@ To use the Azure Machine Learning designer, you create a pipeline that you will 
 
 1. Observe that you need to specify a compute target on which to run the pipeline. In the **Settings** pane, use **Select compute target** to select the compute cluster you created previously.
 
-#### Add and explore the dataset and create the pipeline 
+#### Add and explore the dataset and create the pipeline
 
-Azure Machine Learning includes a sample dataset that you can use to predict the chance of rain. 
+Azure Machine Learning includes a sample dataset that you can use to predict the chance of rain.
 
 1. On the left side of the designer, select the **Datasets** (⌕) tab, and drag the **Weather Dataset** from the **Samples** section onto the canvas.
 

@@ -1,8 +1,4 @@
-[Go back to the previous section](ML_Studio.md)
-
-------------------
-
-## Knowledge Check
+# Knowledge Check
 
 1. Which one of the following services shoud you use in the future for your machine learning projects?
 
@@ -33,5 +29,3 @@
     1. To convert the data from Raspberry Pi to integer values
     
     1. **To convert the weather dataset from string to integer values**
-
-

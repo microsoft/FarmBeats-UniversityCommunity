@@ -1,4 +1,4 @@
-[Go back to the scenario](ML_Studio_Classic.md)
+[Go back to the previous section](ML_Studio.md)
 
 ------------------
 
@@ -18,6 +18,20 @@
     
     1. **Normalize Data**
 
-1. c
+1. What information do you need to connect to your deployed service from a client application?
 
-1. d
+    1. **The REST endpoint**
+    
+    1. **The Primary Key**
+    
+    1. The Secondary Key
+    
+1. In Azure Machine Learning Studio (classic), what is the first R-script used for? 
+    
+    1. To create string values for further processing     
+    
+    1. To convert the data from Raspberry Pi to integer values
+    
+    1. **To convert the weather dataset from string to integer values**
+
+

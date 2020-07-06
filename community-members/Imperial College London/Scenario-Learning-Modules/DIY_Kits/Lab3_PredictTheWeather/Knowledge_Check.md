@@ -25,3 +25,13 @@
     1. **The Primary Key**
     
     1. The Secondary Key
+    
+1. In Azure Machine Learning Studio (classic), what is the first R-script used for? 
+    
+    1. To create string values for further processing     
+    
+    1. To convert the data from Raspberry Pi to integer values
+    
+    1. **To convert the weather dataset from string to integer values**
+
+

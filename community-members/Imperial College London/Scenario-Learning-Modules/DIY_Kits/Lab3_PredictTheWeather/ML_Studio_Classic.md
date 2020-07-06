@@ -1,12 +1,8 @@
-[Go back to the previous section](README.md)
-
-<hr>
-
 # Azure Machine Learning Studio (Classic)
 
 In this tutorial you will use a pre-trained model to predict the chance of rain using the old version of the Azure Machine Learning Studio.
 
-# Weather forecast using the sensor data 
+## Weather forecast using the sensor data
 
 ![ML-Diagram](media/ML-Diagram.png)
 
@@ -16,13 +12,12 @@ Machine learning is a technique of data science that helps computers learn from 
 
 In this section you get the weather prediction model from the Azure AI Library. Then you add an R-script module to the model to clean the temperature and humidity data. Lastly, you deploy the model as a predictive web service.
 
-
 ### Get the weather prediction model
 
 1. Go to the [weather prediction model page](https://gallery.azure.ai/Experiment/Weather-prediction-model-1)
 
     ![weather-prediction-model-page](media/weather-prediction-model-page.png)
-    
+
 1. Click **Open in Studio (classic)** to open the model in Microsoft Azure Machine Learning Studio (classic).
 
     ![open-ml-studio](media/open-ml-studio.png)
@@ -51,13 +46,12 @@ Add an R-script module to the weather prediction model that removes any rows tha
     completedata <- data[complete.cases(data), ]
 
     maml.mapOutputPort('completedata')
-    
     ```
+
     The properties window should look similar to the following:
-    
+
     ![add-code-to-module](media/add-code-to-module.png)
-    
-    
+
 ### Deploy predictive web service
 
 Now we validate the model, set up a predictive web service based on the model and then deploy the web service.
@@ -98,7 +92,6 @@ To add a consumer group to your Event hub, follow these steps:
 1. Select **+ Consumer Group** and name it `ml-consumer-group`.
 
     ![add-consumer-group](media/add-consumer-group.png)
-    
 
 ## Create, configure, and run a Stream Analytics job
 
@@ -107,22 +100,22 @@ To add a consumer group to your Event hub, follow these steps:
 1. Create a new Stream Analytics Job in your resource group.
 
 1. Fill in the details for the Stream Analytics Job:
-    
+
     1. Name the job `ML-job`
-    
+
     1. Select your Azure subscription
-    
+
     1. For the *Resource group*, select your own resource group
-    
+
     1. Select a *Location* closest to you, the same location you used in the previous step to create the resource group and event hubs.
-    
+
     1. Leave the rest of the options as the defaults
 
     1. Select **Create**
-    
+
     <img src="media/saj-details.png" width="40%">
 
-1. Once the deployment has completed, select the **Go to resource** button.    
+1. Once the deployment has completed, select the **Go to resource** button.
 
 ### Set an input for the Stream Analytics job
 
@@ -133,7 +126,7 @@ To add a consumer group to your Event hub, follow these steps:
 1. Select **+ Add stream input**, then select **Event Hub**
 
     <img src="media/saj-eventhub-input.png" width="30%">
-    
+
 1. Fill in the input details
 
    1. Set the alias to be `telemetry`
@@ -145,7 +138,7 @@ To add a consumer group to your Event hub, follow these steps:
    1. Select *Use Existing* for the *Event hub name*
 
    1. Select the `telemetry` event hub
-   
+
    1. Select the consumer group you created.
 
    1. Leave the rest of the options as the defaults
@@ -153,7 +146,6 @@ To add a consumer group to your Event hub, follow these steps:
    1. Select **Save**
 
     <img src="media/configure-input.png" width="40%">
-   
 
 ### Set an output for the Stream Analytics job
 
@@ -245,13 +237,11 @@ Run your IoT device (Raspberry Pi) to start collecting and sending temperature a
 1. Then select the latest csv file and select edit. You can then see the **probabilities of rain** based on **temperature** and **humidity** data.
 
     ![viewData](media/viewData.png)
-    
-<hr>
 
 ## Summary
 
-You have successfully used Azure Machine Learning with a pre-trained model to produce the chance of rain based on the temperature and humidity data that your Event hub receives. Next, you will use the new version of Azure Machine Learning Studio and build and train a machine learning model yourself.
+You have successfully used Azure Machine Learning with a pre-trained model to produce the chance of rain based on the temperature and humidity data that your Event hub receives. Next, you can use the new version of Azure Machine Learning Studio and build and train a machine learning model yourself. Feel free to try out and expand this to try predict other than the probability of rainfall.
 
 -----------------
 
-[Go to the next section!](ML_Studio.md)
+Try out [Machine Learning Studio](ML_Studio.md) or [Check what you learned!](Knowledge_Check.md)

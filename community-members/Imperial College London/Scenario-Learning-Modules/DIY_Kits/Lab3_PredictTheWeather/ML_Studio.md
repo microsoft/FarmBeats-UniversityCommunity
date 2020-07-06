@@ -230,7 +230,7 @@ After deployment finishes, you can test your real-time endpoint by going to the 
 
 1. Select **Test**.
 
-1. You can manually input testing data or use the autofilled sample data, and select **Test**.
+1. Test your model by changing the values for DryBulbCelsius, RelativeHumidity. These are the temperature and humidity readings obtained from your Raspberry Pi. The rest of the values can remain unchanged. Then select **Test**.
 
 ### Get REST endpoint and the Primary Key
 

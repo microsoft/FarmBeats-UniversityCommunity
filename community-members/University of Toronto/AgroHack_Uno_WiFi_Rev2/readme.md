@@ -58,7 +58,7 @@ Also, we need to create the application in Azure IoT Central and setup Azure Ana
 
 ## Wiring
 
-I am using the DHT 11 sensor for humidity and temperature and a generic soil moisture sensor.
+I am using the DHT 11 sensor for humidity and temperature and a generic soil moisture sensor. I currently do *not* have a pressure sensor, so the program generates random values for pressure instead. Feel free to add a pressure sensor tho :).
 ![circuit diagram](https://github.com/Gostas/AgroHack_Uno_WiFi_Rev2/blob/master/assets/AgroHack_circuit.png?raw=true)
 
 ## Configuration

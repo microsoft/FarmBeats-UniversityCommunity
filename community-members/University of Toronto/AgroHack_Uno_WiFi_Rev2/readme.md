@@ -1,4 +1,6 @@
 # Implementing AgroHack on Arduino UNO WiFi Rev. 2
+## University of Toronto Project Team 
+## Developer - Konstantinos Papaspyridis
 
 ## What's this about
 

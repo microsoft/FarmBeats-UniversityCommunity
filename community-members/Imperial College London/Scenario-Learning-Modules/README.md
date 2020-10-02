@@ -45,23 +45,23 @@ You will be learn to create an application in IoT Central and PowerApps to displ
 
 ##### IoT Central
 
-![Azure services iotc](Scenario-Learning-Modules/Aware_Kits/Lab1_MonitorYourPlant/IoTCentral/media/AzureServices_iotc.png)
+![Azure services iotc](Aware_Kits/Lab1_MonitorYourPlant/IoTCentral/media/AzureServices_iotc.png)
 
 ##### PowerApps
 
-![Azure services powerapps](Scenario-Learning-Modules/Aware_Kits/Lab1_MonitorYourPlant/PowerApps/media/AzureServices_powerapps.png)
+![Azure services powerapps](Aware_Kits/Lab1_MonitorYourPlant/PowerApps/media/AzureServices_powerapps.png)
 
 #### Scenario 2: Water your plant
 
 The main goal for this scenario is to learn how to implement an automated irrigation system. This will allow you to have a better understanding of how to efficiently use water, as there are a lot of contries facing water scarcity.
 
-![AzureServiceS1](Scenario-Learning-Modules/Aware_Kits/Lab2_WaterYourPlant/Alarm_system/media/AzureServices_Scenario2.png)
+![AzureServiceS1](Aware_Kits/Lab2_WaterYourPlant/Alarm_system/media/AzureServices_Scenario2.png)
 
 #### Scenario 3: Predict the weather
 
 In scenario 3, you will try to predict the probability of rainfall using Azure Machine Learning. You will be using the data stored in the Azure Storage Account, which is gathered using your own Raspberry Pi. You can extend this and try to predict other metheorological events.
 
-![Ml Diagram](Scenario-Learning-Modules/Aware_Kits/Lab3_PredictTheWeather/media/ML-Diagram.png)
+![Ml Diagram](Aware_Kits/Lab3_PredictTheWeather/media/ML-Diagram.png)
 
 #### Scenario 4: LED Light System
 
@@ -69,4 +69,4 @@ Light is another important factor affecting plant growth. In this scenario, you 
 
 Wavelenght composition of sunlight
 
-![sunlight composition](Scenario-Learning-Modules/Aware_Kits/Lab4_LEDLightSystem/media/sunlight.png)
+![sunlight composition](Aware_Kits/Lab4_LEDLightSystem/media/sunlight.png)

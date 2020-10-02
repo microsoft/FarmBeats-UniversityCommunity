@@ -8,7 +8,7 @@ In this scenario you will be using:
 
 - Light Sensor V1.2.
 
-    ![light sensor](media/ligh_sensor.jpg)
+    ![light sensor](media/light_sensor.jpg)
 
 - Capacitive soil moisture sensor.
 

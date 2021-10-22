@@ -72,7 +72,7 @@ In the [previous step](Create_storage_account.md) you have created the storage a
 
 1. Complete the details as follows:
 
-    * Input alias: `data`.
+    * Output alias: `data`.
 
     * Click on `Select storage from your subscriptions`.
 

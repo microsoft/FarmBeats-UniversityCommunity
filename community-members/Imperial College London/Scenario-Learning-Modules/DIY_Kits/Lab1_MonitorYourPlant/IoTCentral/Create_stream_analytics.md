@@ -84,7 +84,7 @@ In the [previous step](Create_storage_account.md) you have created the storage a
 
     * Path pattern: set it as `{date}/{time}`. JSON records are appended to a single JSON file, and setting this will cause a new file to be created each hour in a folder hierarchy based off year/month/day/hour.
 
-    * Leave the rest as it is.
+    * Leave the rest as it is and click on **save**.
 
     ![blob input](./media/blob_input.png)
 
